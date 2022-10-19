@@ -18,19 +18,19 @@ const SNS = () => {
 
   return (
     <div className={style.getInfo}>
-      <h4>To get latest information</h4>
+      {/* <h4>To get latest information</h4> */}
       <div className={style.SNSContainer}>
         <a target="_blank" href={conferenceInfoUrl.notion} rel="noreferrer">
-          <Image alt="Notion logo" src={notion} width={32} height={32} />
+          <Image alt="Notion logo" src={notion} width={24} height={24} />
         </a>
         <a target="_blank" href={conferenceInfoUrl.twitter} rel="noreferrer">
-          <Image alt="Twitter logo" src={twitter} width={32} height={32} />
+          <Image alt="Twitter logo" src={twitter} width={24} height={24} />
         </a>
         <a target="_blank" href={conferenceInfoUrl.instagram} rel="noreferrer">
-          <Image alt="Instagram logo" src={instagram} width={32} height={32} />
+          <Image alt="Instagram logo" src={instagram} width={24} height={24} />
         </a>
         <a target="_blank" href={conferenceInfoUrl.linkedIn} rel="noreferrer">
-          <Image alt="LinkedIn logo" src={linkedIn} width={32} height={32} />
+          <Image alt="LinkedIn logo" src={linkedIn} width={24} height={24} />
         </a>
       </div>
     </div>

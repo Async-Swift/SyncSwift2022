@@ -37,7 +37,6 @@ const HeadMeta = () => {
       <meta name="Keywords" content="AsyncSwift" />
       <meta name="keywords" content="Swift Conference" />
       <meta name="keywords" content="SyncSwift 2022" />
-      <link rel="icon" href="/favicons/favicon.ico" />
       <link
         rel="apple-touch-icon"
         sizes="57x57"
@@ -107,13 +106,17 @@ const HeadMeta = () => {
         sizes="16x16"
         href="/favicons/favicon-16x16.png"
       />
+
       <link rel="manifest" href="/favicons/manifest.json" />
-      <meta name="msapplication-TileColor" content="#ffffff" />
+      <link rel="icon" href="/favicons/favicon.ico" />
+
+      <meta name="msapplication-TileColor" content="#000000" />
       <meta
         name="msapplication-TileImage"
         content="/favicons/ms-icon-144x144.png"
       />
-      <meta name="theme-color" content="#ffffff" />
+      <meta name="theme-color" content="#000000" />
+
       <title>SyncSwift 2022</title>
     </Head>
   );

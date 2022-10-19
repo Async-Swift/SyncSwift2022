@@ -1,3 +1,7 @@
+.ticketInfo {
+  padding: 0.9rem 3.6rem;
+}
+
 .getInfo {
   display: flex;
   align-items: center;
@@ -5,17 +9,8 @@
   font-size: 1.7rem;
 }
 
-.ticketInfo {
-  line-height: 160%;
-  font-size: 2.4rem;
-}
 .getInfo h4 {
-  margin-right: 3.2rem;
-}
-.ticketInfo h3 {
-  color: #f647fa;
-  font-size: 2.4rem;
-  font-weight: bold;
+  margin-left: 3.2rem;
 }
 
 .SNSContainer {
@@ -23,10 +18,11 @@
   justify-content: space-between;
   align-items: center;
   width: 15rem;
+  height: 2.4rem;
 }
 
 /* 데스크탑 */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 836px) {
   .InfoContainer {
     position: fixed;
     bottom: 6rem;
@@ -39,29 +35,21 @@
 
   .SNSContainer {
     height: 2.4rem;
-    margin-right: 3.2rem;
+    margin-left: 3.2rem;
   }
 }
 
 /* 모바일 */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 836px) {
   .InfoContainer {
     position: fixed;
     bottom: 3.2rem;
 
-    margin-left: 2.4rem;
+    margin-left: 1.6rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 2.4rem;
-  }
-
-  .ticketInfo h3 {
-    font-size: 1.7rem;
-  }
-  .ticketInfo {
-    line-height: 160%;
-    font-size: 1.7rem;
   }
 
   .getInfo {
